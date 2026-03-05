@@ -35,7 +35,7 @@ axios.get('https://bulletin.du.edu/undergraduate/coursedescriptions/comp/')
                 filteredP.push(pText);
             }
         }
-    }
+    }//Hi
     //The remaining strong elements will be split.The first 10 characters are designated as the "course", and the characters between index 10 and the opening parentheses are designated as "title".
     let allCourses = [];
     for(let i = 0; i < filteredStrong.length; i++) {
