@@ -61,3 +61,5 @@ axios.get('https://bulletin.du.edu/undergraduate/coursedescriptions/comp/')
 .catch(error=>{
     console.error(error);
 })
+
+//please work I beg of you.
